@@ -15,7 +15,7 @@ if (isset($_POST['my-name'])) {
     echo $_POST['my-name'];
 } else {
   ?>
-    <p>Nothing Posted to the page</p>
+    <p>Nothing posted to the page</p>
   <?php
 }
 include "view-footer.php";
